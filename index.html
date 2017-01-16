@@ -22,11 +22,12 @@
                 : 'css/print/paper.css';
             document.getElementsByTagName('head')[0].appendChild(link);
         </script>
-				<style>
-				.reveal h2{
-					font-size:1.5em;
-				}
-				</style>
+        <style>
+            .reveal h2 {
+                font-size: 1.5em;
+            }
+
+        </style>
     </head>
     <body>
         <div class="reveal">
@@ -86,7 +87,7 @@
                     </section>
                     <section>
                         <h2>At the beginnnig...</h2>
-												<p>Apparu au début des années 2000</p>
+                        <p>Apparu au début des années 2000</p>
                         <ul>
                             <li>Rôle: Mieux comprendre les comportements utilisateurs
                             </li>
@@ -154,56 +155,94 @@
                                 => En découle le manque de temps passé à l'analyse</li>
                             <li class="fragment fade-in">Trop de modifications en même temps</li>
                             <li class="fragment fade-in">Trop focus sur des KPI à faible interêt</li>
-                            <li class="fragment fade-in">N'avoir qu'un seul KPI cible</li>
                             <li class="fragment fade-in">Avoir des KPI trop difficiles à mesurer (ou non fiables)</li>
                             <li class="fragment fade-in">Veille non régulière</li>
-														<li class="fragment fade-in">Se noyer dans le flot d'outils</li>
+                            <li class="fragment fade-in">Se noyer dans le flot d'outils</li>
+                            <li class="fragment fade-in">Trop de KPIs (5max...)</li>
                         </ul>
                     </section>
 
-										<section>
+                    <section>
                         <h2>Les obstacles</h2>
                         <ul>
-                            <li class="fragment fade-in">Technicité<br />=> être entouré de bons techniciens</li>
+                            <li class="fragment fade-in">Technicité<br/>=> être entouré de bons techniciens</li>
                             <li class="fragment fade-in">Le marquage</li>
                             <li class="fragment fade-in">Investissement à moyen/long terme</li>
-														<li class="fragment fade-in">Communication inter-équipes</li>
+                            <li class="fragment fade-in">Communication inter-équipes</li>
                         </ul>
                     </section>
                 </section>
-            </div>
-        </div>
+                <section>
+                    <section>
+                        <h2>Les KPIs les plus souvent rencontrés</h2>
+                        <p>Il est indispensable de connaître l'ensemble des armes qu'on a sa disposition pour répondre aux problèmatiques fixées</p>
+                    </section>
+                    <section>
+                        <h2>Google analytics > Vue d'ensemble</h2>
+                        <img src="./ga-vu-ensemble.jpg"/>
+                    </section>
+										<section>
+                        <h2>Sessions</h2>
+                    </section>
+                    <section>
+                        <h2>VU &amp; PV</h2>
+                        <i>Disponible dans l’onglet: Audience > Vue d’ensemble</i>
+                    </section>
+                    <section>
+                        <h2>Durée moyenne des sessions</h2>
+                    </section>
+										<section>
+                        <h2>Taux de rebond</h2>
+                    </section>
+										<section>
+                        <h2>Fidélité / % nouvelles sessions</h2>
+                    </section>
+                </section>
 
-        <script src="lib/js/head.min.js"></script>
-        <script src="js/reveal.js"></script>
+                <section>
+                    <section>
+                        <h2>Resources utiles<h2>
+                                <ul>
+                                    <li>
+                                        <a href="https://www.youtube.com/watch?v=vsbx64t9coQ" target="_blank">Calculer ses KPIs (vidéo)</a>
+                                    </li>
+                                </ul>
 
-        <script>
-            // More info https://github.com/hakimel/reveal.js#configuration
-            Reveal.initialize({
-                history: true,
+                            </section>
+                        </section>
+                    </div>
+                </div>
 
-                // More info https://github.com/hakimel/reveal.js#dependencies
-                dependencies: [
-                    {
-                        src: 'plugin/markdown/marked.js'
-                    }, {
-                        src: 'plugin/markdown/markdown.js'
-                    }, {
-                        src: 'plugin/notes/notes.js',
-                        async: true
-                    }, {
-                        src: 'plugin/highlight/highlight.js',
-                        async: true,
-                        callback: function() {
-                            hljs.initHighlightingOnLoad();
-                        }
-                    }
-                ],
+                <script src="lib/js/head.min.js"></script>
+                <script src="js/reveal.js"></script>
 
-								width: "100%",
-	 							height: "100%",
-								margin: 0.1,
-            });
-        </script>
-    </body>
-</html>
+                <script>
+                    // More info https://github.com/hakimel/reveal.js#configuration
+                    Reveal.initialize({
+                        history: true,
+
+                        // More info https://github.com/hakimel/reveal.js#dependencies
+                        dependencies: [
+                            {
+                                src: 'plugin/markdown/marked.js'
+                            }, {
+                                src: 'plugin/markdown/markdown.js'
+                            }, {
+                                src: 'plugin/notes/notes.js',
+                                async: true
+                            }, {
+                                src: 'plugin/highlight/highlight.js',
+                                async: true,
+                                callback: function() {
+                                    hljs.initHighlightingOnLoad();
+                                }
+                            }
+                        ],
+
+                        width: "100%",
+                        height: "100%",
+                        margin: 0.1
+                    });
+                </script>
+            </body>
+        </html>

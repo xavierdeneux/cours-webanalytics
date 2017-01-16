@@ -1,129 +1,209 @@
 <!doctype html>
 <html>
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<title>reveal.js</title>
+        <title>Xavier DENEUX - Cours webanalytics - Février 2017</title>
 
-		<link rel="stylesheet" href="css/reveal.css">
-		<link rel="stylesheet" href="css/theme/black.css">
+        <link rel="stylesheet" href="css/reveal.css">
+        <link rel="stylesheet" href="css/theme/beige.css">
 
-		<!-- Theme used for syntax highlighting of code -->
-		<link rel="stylesheet" href="lib/css/zenburn.css">
+        <!-- Theme used for syntax highlighting of code -->
+        <link rel="stylesheet" href="lib/css/zenburn.css">
 
-		<!-- Printing and PDF exports -->
-		<script>
-			var link = document.createElement( 'link' );
-			link.rel = 'stylesheet';
-			link.type = 'text/css';
-			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
-			document.getElementsByTagName( 'head' )[0].appendChild( link );
-		</script>
-	</head>
-	<body>
-		<div class="reveal">
-			<div class="slides">
-				<section>
-					<section>Webanalytics - Février 2016</section>
-					<section>
-						<p>Xavier DENEUX</p>
-						<p class="fragment fade-in">Lead developer</p>
-					</section>
+        <!-- Printing and PDF exports -->
+        <script>
+            var link = document.createElement('link');
+            link.rel = 'stylesheet';
+            link.type = 'text/css';
+            link.href = window.location.search.match(/print-pdf/gi)
+                ? 'css/print/pdf.css'
+                : 'css/print/paper.css';
+            document.getElementsByTagName('head')[0].appendChild(link);
+        </script>
+				<style>
+				.reveal h2{
+					font-size:1.5em;
+				}
+				</style>
+    </head>
+    <body>
+        <div class="reveal">
+            <div class="slides">
+                <section>
+                    <section>Webanalytics - Février 2017</section>
+                    <section>
+                        <p>Xavier DENEUX</p>
+                        <p class="fragment fade-in">Lead developer</p>
+                        <p class="fragment fade-in">https://cours.xavierdeneux.fr/web-analytics/</p>
+                    </section>
 
-					<section>
-						<p>Contact:</p>
-						<p class="fragment fade-in">@xavierdeneux</p>
-						<p class="fragment fade-in">www.xavierdeneux.fr</p>
-					</section>
+                    <section>
+                        <p>Contact:</p>
+                        <p class="fragment fade-in">@xavierdeneux</p>
+                        <p class="fragment fade-in">www.xavierdeneux.fr</p>
+                    </section>
 
-					<section>
-						<p>Dans le web depuis presque 10ans</p>
-						<p class="fragment fade-in">#photo, #running, #3dprinting</p>
-					</section>
+                    <section>
+                        <p>Dans le web depuis presque 10ans</p>
+                        <p class="fragment fade-in">#photo, #running, #3dprinting</p>
+                    </section>
 
+                    <section>
+                        <p>Expériences</p>
+                        <ul>
+                            <li class="fragment fade-in">8 ans de développement web</li>
+                            <li class="fragment fade-in">3 ans en tant que gérant d'un e-commerce</li>
+                            <li class="fragment fade-in">4 ans de consulting</li>
+                        </ul>
+                    </section>
+                </section>
+                <section>
+                    <section>
+                        <p>"Le Web Analytics regroupe la mesure, la collecte, l’analyse et la présentation de données provenant d’Internet utilisées pour optimiser un site web, un site mobile ou une application."</p>
+                    </section>
+                    <section>
+                        <h2>Définition version courte: DMA!</h2>
+                        <p>
+                            <ul>
+                                <li class="fragment fade-in">Définir</li>
+                                <li class="fragment fade-in">Mesurer</li>
+                                <li class="fragment fade-in">Agir</li>
+                            </ul>
+                        </p>
+                    </section>
+                    <section>
+                        <ul>
+                            <li class="fragment fade-in">Travail permanent</li>
+                            <li class="fragment fade-in">Nécessite une bonne expertise</li>
+                            <li class="fragment fade-in">Doit toujours répondre à la règle d'or</li>
+                            <li class="fragment fade-in">Transversal</li>
+                        </ul>
+                    </section>
+                    <section>
+                        <img src="./wa.jpg"/>
+                    </section>
+                    <section>
+                        <h2>At the beginnnig...</h2>
+												<p>Apparu au début des années 2000</p>
+                        <ul>
+                            <li>Rôle: Mieux comprendre les comportements utilisateurs
+                            </li>
+                            <li>Très peu d'indicateurs disponibles</li>
+                            <li>Faible fiabilité des données</li>
+                        </ul>
 
-					<section>
-						<p>Expériences</p>
-						<ul>
-							<li class="fragment fade-in">8 ans de développement web</li>
-							<li class="fragment fade-in">3 ans en tant que gérant d'un e-commerce</li>
-							<li class="fragment fade-in">4 ans de consulting</li>
-						</ul>
-					</section>
-				</section>
-				<section>
-					<section>
-						<p>"Le Web Analytics regroupe la mesure, la collecte, l’analyse et la présentation de données provenant d’Internet utilisées pour optimiser un site web, un site mobile ou une application."</p>
-					</section>
-					<section>
-						<p>Définition version courte: DMA!</p>
-						<p>
-							<ul>
-								<li class="fragment fade-in">Définir</li>
-								<li class="fragment fade-in">Mesurer</li>
-								<li class="fragment fade-in">Agir</li>
-							</ul>
-						</p>
-					</section>
-					<section>
-						<ul>
-							<li class="fragment fade-in">Travail permanent</li>
-							<li class="fragment fade-in">Nécessite une bonne expertise</li>
-							<li class="fragment fade-in">Doit toujours répondre à la règle d'or</li>
-							<li class="fragment fade-in">Transversal</li>
-						</ul>
-					</section>
-					<section>
-						<img src="./wa.jpg" />
-					</section>
-					<section>
-						Apparu au début des années 2000<br /><br />
-									<ul>
-										<li>Mieux comprendre les comportements utilisateurs</li>
-										<li>Très peu d'indicateurs disponibles</li>
-										<li>Faible fiabilité des données</li>
-									</ul>
-							
-					</section>
+                    </section>
 
-					<section>
-						Un outil indispensable aujourd'hui<br /><br />
-									<ul>
-										<li>Des KPI toujours plus riches</li>
-										<li>Une meilleur fiabilité</li>
-										<li>Une étape obligatoire dans le webmarketing</li>
-									</ul>
-					</section>
+                    <section>
+                        <h2>Un outil indispensable aujourd'hui</h2>
+                        <ul>
+                            <li>Optimiser un site, une app. Plusieurs objectifs:
+                                <ul>
+                                    <li>Croissance des revenus</li>
+                                    <li>Réduction des coûts</li>
+                                    <li>Augmenter la satisfaction client</li>
+                                </ul>
+                            </li>
+                            <li>Des KPI toujours plus riches</li>
+                            <li>Une meilleur fiabilité</li>
+                            <li>Une étape obligatoire dans le webmarketing</li>
+                        </ul>
+                    </section>
 
-					<section>
-						Des dizaines d'acteurs et de solutions<br /><br />
-									<ul>
-										<li>Malgré cela, un gros monopole de Google (2015)<br />
-											<img src="./part-marche-2015.png" />
-										</li>
-									</ul>
-					</section>					
-				</section>
-			</div>
-		</div>
+                    <section>
+                        <h2>Des dizaines d'acteurs et de solutions</h2>
+                        <ul>
+                            <li class="fragment fade-in">Google Analytics, KISSmetrics, MixPanel, Adobe Analytics, Xiti, Piwik, Woopra...</li>
+                            <li class="fragment fade-in">Des outils libres et opensource: OpenWebAnalytics</li>
+                            <li class="fragment fade-in">Malgré cela, un gros monopole de Google (2015)</li>
+                        </ul>
+                    </section>
+                </section>
+                <section>
+                    <section>
+                        <h2>Peu importe la solution choisie, un langage universel...</h2>
+                        <ul>
+                            <li>Sessions</li>
+                            <li>VU : Visiteurs uniques</li>
+                            <li>PV : Pages vues</li>
+                            <li>Referer (natural, organic)</li>
+                            <li>Taux de rebond</li>
+                            <li>Tag & marker</li>
+                            <li>"Not provided" (=> google webmaster tools)</li>
+                            <li>...</li>
+                        </ul>
+                    </section>
+                    <section>
+                        <h2>Transversalité - ce qui gravite autour des web analytics</h2>
+                        <ul>
+                            <li>Search Engine Optimisation (SEO)</li>
+                            <li>Search Engine Advertising (SEA) : Adwords, Facebook Business, TwitterAds...</li>
+                            <li>Ces deux domaines forment le "Search Engine Marketing" (SEM)</li>
+                        </ul>
+                    </section>
+                </section>
 
-		<script src="lib/js/head.min.js"></script>
-		<script src="js/reveal.js"></script>
+                <!-- Obstacles et erreurs courantes -->
+                <section>
+                    <section>
+                        <h2>Les erreurs courantes</h2>
+                        <ul>
+                            <li class="fragment fade-in">Avoir les yeux plus gros que le ventre: la règle du 10/90<br/>
+                                => En découle le manque de temps passé à l'analyse</li>
+                            <li class="fragment fade-in">Trop de modifications en même temps</li>
+                            <li class="fragment fade-in">Trop focus sur des KPI à faible interêt</li>
+                            <li class="fragment fade-in">N'avoir qu'un seul KPI cible</li>
+                            <li class="fragment fade-in">Avoir des KPI trop difficiles à mesurer (ou non fiables)</li>
+                            <li class="fragment fade-in">Veille non régulière</li>
+														<li class="fragment fade-in">Se noyer dans le flot d'outils</li>
+                        </ul>
+                    </section>
 
-		<script>
-			// More info https://github.com/hakimel/reveal.js#configuration
-			Reveal.initialize({
-				history: true,
+										<section>
+                        <h2>Les obstacles</h2>
+                        <ul>
+                            <li class="fragment fade-in">Technicité<br />=> être entouré de bons techniciens</li>
+                            <li class="fragment fade-in">Le marquage</li>
+                            <li class="fragment fade-in">Investissement à moyen/long terme</li>
+														<li class="fragment fade-in">Communication inter-équipes</li>
+                        </ul>
+                    </section>
+                </section>
+            </div>
+        </div>
 
-				// More info https://github.com/hakimel/reveal.js#dependencies
-				dependencies: [
-					{ src: 'plugin/markdown/marked.js' },
-					{ src: 'plugin/markdown/markdown.js' },
-					{ src: 'plugin/notes/notes.js', async: true },
-					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
-				]
-			});
-		</script>
-	</body>
+        <script src="lib/js/head.min.js"></script>
+        <script src="js/reveal.js"></script>
+
+        <script>
+            // More info https://github.com/hakimel/reveal.js#configuration
+            Reveal.initialize({
+                history: true,
+
+                // More info https://github.com/hakimel/reveal.js#dependencies
+                dependencies: [
+                    {
+                        src: 'plugin/markdown/marked.js'
+                    }, {
+                        src: 'plugin/markdown/markdown.js'
+                    }, {
+                        src: 'plugin/notes/notes.js',
+                        async: true
+                    }, {
+                        src: 'plugin/highlight/highlight.js',
+                        async: true,
+                        callback: function() {
+                            hljs.initHighlightingOnLoad();
+                        }
+                    }
+                ],
+
+								width: "100%",
+	 							height: "100%",
+								margin: 0.1,
+            });
+        </script>
+    </body>
 </html>

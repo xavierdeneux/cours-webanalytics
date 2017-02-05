@@ -212,7 +212,7 @@
                         <h2>Les différents types d'analyse</h2>
                         <h3>Analyse concurentielle</h3>
                         <ul>
-                            <li>"La concurrence està un clic"</li>
+                            <li>"La concurrence est à un clic"</li>
                         </ul>
                     </section>
                     <section>
@@ -271,19 +271,7 @@
                         </ul>
                         <p class="fragment fade-in" style="clear:both;display:inline-bloc;">Une valeur satisfaisante d’un KPI opérationnel doit influencer positivement la valeur d’un objectif stratégique.</p>
                     </section>
-                    <section>
-                        <h2>Peu importe la solution choisie, un langage universel...</h2>
-                        <ul>
-                            <li>Sessions</li>
-                            <li>VU : Visiteurs uniques</li>
-                            <li>PV : Pages vues</li>
-                            <li>Referer (natural, organic)</li>
-                            <li>Taux de rebond</li>
-                            <li>Tag & marker</li>
-                            <li>"Not provided" (=> google webmaster tools)</li>
-                            <li>...</li>
-                        </ul>
-                    </section>
+                   
 
                     <section>
                         <h2>Bien choisir ses KPI (1/2)</h2>
@@ -311,13 +299,14 @@
                     </section>
 
                     <section>
+						<h2>Mettre en place une stratégie web</h2>
                         <ul>
                             <li>Quelle est la raison de votre présence sur le web?</li>
                             <li>Définir les objectifs. Pour chaque objectif:
                                 <ul>
                                     <li>Définir le KPI</li>
                                     <li>Fixer des objectifs d'évolution (croissance ou réduction selon les KPIs)</li>
-                                    <li>Définir le plan d'action stratégique à mettre en oeuvre</li>
+                                    <li>Définir le plan d'action stratégique à mettre en œuvre</li>
                                     <!-- https://www.markentive.fr/blog/choisir-les-kpi-adaptes-a-votre-activite/ -->
 
                                 </ul>
@@ -327,58 +316,288 @@
                     </section>
 
                     <section>
-                        <h2>Présenter ses résultats</h2>
+                        <h2>Présenter et partager ses résultats</h2>
                         <p>Une fois les mesures et analyses réalisées, il faut les synthétiser et les partager avec les équipes impliquées</p>
                         <p>Cela doit amener les équipes à être plus motivées et à se dépasser</p>
+                    </section>
+					<section>
+					<a href="https://fr.pinterest.com/modernistablog/web-analytics-infographics-infogr%C3%A1ficos/" target="_blank">Dashboards</a><br />
+						<img src="wa-dashboard.jpg" />
+					</section>
+					<section>
+                      <h2>Variation et tendances</h2>
+                      <p>Plus importants que les chiffres en eux mêmes.</p>
+                      <p>Mise en place d'alertes lors de trop grandes variation.</p>
                     </section>
                 </section>
 
                 <section>
-                    <section>
+					<section>
                         <h2>Les KPIs les plus souvent rencontrés</h2>
                         <p>Il est indispensable de connaître l'ensemble des armes qu'on a sa disposition pour répondre aux problèmatiques fixées</p>
                     </section>
+					<section>
+                        <h2>Les "classiques"</h2>
+						<h3>Sessions/Visites</h3>
+                        <ul>
+                            <li>Fonctionne par tranche de 30min</li>
+                        </ul>
+					<table class="fragment fade-in" style="font-size:32px;width:600px;">
+						<thead>
+							<tr>
+								<th>Page</th>
+								<th>Heure</th>
+								<th>Session/Visite</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>Accueil</td>
+								<td>9h40</td>
+								<td>1</td>
+							</tr>
+							<tr>
+								<td>Qui sommes-nous?</td>
+								<td>9h52</td>
+								<td>0</td>
+							</tr>
+							<tr>
+								<td>Contactez-nous</td>
+								<td>9h57</td>
+								<td>0</td>
+							</tr>
+							<tr>
+								<td>Accueil</td>
+								<td>10h13</td>
+								<td>1</td>
+							</tr>
+						</tbody>
+						<tfoot>
+							<tr>
+								<td></td>
+								<td>Total visite:</td>
+								<td>2</td>
+							</tr>
+						</tfoot>
+						</table>
+                    </section>
+					<section>
+					    <h2>Les "classiques"</h2>
+						<h3>VU : Visiteurs uniques</h3>
+                        <ul>
+                            <li>Sur une période donnée</li>
+							<li>Non cumulables entre deux sites ou deux périodes (contrairement à de l'audimat)</li>
+                        </ul>
+						<table class="fragment fade-in" style="font-size:32px;width:600px;">
+						<thead>
+							<tr>
+								<th></th>
+								<th>Jour visite</th>
+								<th>Nb VU</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>Visiteur 1</td>
+								<td>Jour 1</td>
+								<td>1</td>
+							</tr>
+							<tr>
+								<td>Visiteur 1</td>
+								<td>Jour 1</td>
+								<td>0</td>
+							</tr>
+							<tr>
+								<td>Visiteur 2</td>
+								<td>Jour 2</td>
+								<td>1</td>
+							</tr>
+							<tr>
+								<td>Visiteur 1</td>
+								<td>Jour 3</td>
+								<td>0</td>
+							</tr>
+							<tr>
+								<td>Visiteur 2</td>
+								<td>Jour 4</td>
+								<td>0</td>
+							</tr>
+							<tr>
+								<td>Visiteur 3</td>
+								<td>Jour 4</td>
+								<td>1</td>
+							</tr>
+						</tbody>
+						<tfoot>
+							<tr>
+								<td></td>
+								<td>Total VU:</td>
+								<td>3</td>
+							</tr>
+						</tfoot>
+						</table>
+                    </section>
+					<section>
+					    <h2>Les "classiques"</h2>
+						<h3>PV : Pages vues</h3>
+                        <ul>
+							<li>Ne pas confondre avec "vu" de "visiteurs uniques"</li>
+                        </ul>
+                    </section>
+					<section>
+					    <h2>Les "classiques"</h2>
+                        <h3>Referer (natural, organic)</h3>
+						<ul>
+                            <li>D'où viennent les visites</li>
+                        </ul>
+                    </section>
+					<section>
+					    <h2>Les "classiques"</h2>
+                        <h3>Taux de rebond</h3>
+						<ul>
+                            <li>Les visiteurs repartent-ils à peine arrivés sur votre site?</li>
+                        </ul>
+                    </section>
+					<section>
+                        <h2>Les "classiques"</h2>
+						<h3>Pages vues par sessions</h3>
+					</section>
+					<section>
+                        <h2>Les "classiques"</h2>
+						<h3>Durée moyenne visite</h3>
+					</section>
+					<section>
+					    <h2>Spécificité</h2>
+						<h3>"Not provided"</h3>
+                    </section>
                     <section>
                         <h2>KPIs pour l'e-commerce</h2>
+						<h3>Taux de conversion / transformation</h3>
+						<p>(Nombre de commandes / Nombre de visiteurs)*100</p>
+						<p>Le taux de conversion B2C hors tourisme se situe aux alentours de 2,2%* avec de grande variation selon les secteurs.</p>
+						
+                    </section>                  
+                    <section>
+                        <h2>KPIs pour l'e-commerce</h2>
+						<h3>Panier moyen (appelé aussi VMC: Valeur Moyenne par Commande)</h3>
+						<p>Chiffre d’affaires produit HT / Nombre de commandes</p>
+						<ul>
+							<li>Tendance à augmenter lors de la période de fin d’année et à diminuer pendant les soldes.</li>
+							<li>Utile pour des e-commerce riches en produits</li>
+							<li>A coupler avec la segmentation</li>
+						</ul>
+                    </section>  
+					<section>
+                        <h2>KPIs pour l'e-commerce</h2>
+						<h3>Nombre de jours avant l'achat</h3>
+                    </section> 
+					<section>
+                        <h2>KPIs pour l'e-commerce</h2>
+						<h3>Nombre de visites avant l'achat</h3>
+                    </section> 
+					<section>
+                        <h2>KPIs pour l'e-commerce</h2>
+                        <h3>Taux de rebond sur les fiches produits</h3>
+						<p>(Nombre de visite d’une seule page / Total des visites)*100</p>
+						<p>En e-commerce, la moyenne du taux de rebond est de 42%</p>
+                    </section> 
+					<section>
+						<h2>KPIs pour l'e-commerce</h2>
+						<h3>CA par visiteur</h3>
+						<p>Cet indicateur est d’une importance capitale notamment  lorsque vous vous posez la question de savoir quel budget vous pouvez allouer à votre campagne d’acquisition de trafic.</p>
+					</section>
+				</section>
+				
+				<section>
+					<section>
+						<h2>Travaux à faire en groupe</h2>
+						<h3>Cas d'étude: Pixter</h3>
+						<p>
+							<a href="https://analytics.google.com" target="_blank">Accéder à Google Analytics</a>
+						</p>
+					</section>
+					<section>
+						<h2>A la découverte de Google Analytics</h2>
+						
+						<p>Pixter connait depuis octobre/novembre 2016 une envolée de son chiffre d'affaire. <br />En s'aidant des analytics, donner quelques raisons au décollage des ventes.</p>
+						<ul>
+							<li>Réaliser une présentation attrayante sur un document A4</li>
+							<li>Identifier les leviers d'action utilisés</li>
+							<li>Durée: 1h</li>
+						</ul>
+					</section>
+				</section>
+				
+				<section>
+					<section>
+                        <h2>Améliorer l'acquisition</h2>
+						<img src="./acquisition.png" />
+                    </section>
+					<section>
+                        <h2>Améliorer l'acquisition</h2>
+						<h3>Organic search</h3>
                         <ul>
-                            <li class="fragment fade-in">Taux de conversion</li>
-                            <li class="fragment fade-in">Panier moyen (dans le cadre d'un e-commerce riche en produits)</li>
-                            <li class="fragment fade-in">Nombre de jours avant l'achat</li>
-                            <li class="fragment fade-in">Nombre de visites avant l'achat</li>
-                            <li class="fragment fade-in">Taux de rebond sur les fiches produits</li>
+                            <li>Google, google, google!</li>
+							<li>SEO, SEO, SEO!</li>
                         </ul>
                     </section>
-
+					<section>
+                        <h2>Améliorer l'acquisition</h2>
+						<h3>Paid search, SEA</h3>
+                        <ul>
+                            <li>Google Adwords</li>
+                            <li>Comparateurs de prix</li>
+                            <li>Autres moteurs de recherche</li>
+                        </ul>
+                    </section>
+					<section>
+                        <h2>Améliorer l'acquisition</h2>
+						<h3>Social</h3>
+                        <ul>
+                            <li>SMO : L'objectif principal du CM</li>
+							<li>Liens/posts sponsorisés</li>
+                        </ul>
+                    </section>
+					<section>
+                        <h2>Améliorer l'acquisition</h2>
+						<h3>Direct</h3>
+                        <ul>
+                            <li>Marketing classique</li>
+                            <li>Publicité offline</li>
+                            <li>Bouche à oreille</li>
+                            <li>Newsletter</li>
+                        </ul>
+                    </section>
                     <section>
                         <h2>Améliorer l'acquisition</h2>
+						<h3>Referal</h3>
                         <ul>
-                            <li>Organic search</li>
-                            <li>Paid search (adwords...)</li>
-                            <li>Social</li>
-                            <li>Direct (newsletters, pub offline)</li>
-                            <li>Referal (partenariats...)</li>
+                            <li>Encore du SEO (offpage)</li>
+                            <li>Partenariats divers</li>
+                            <li>Communiqués de presse</li>
+                            <li>Buzz</li>
                         </ul>
                     </section>
-
+				</section>
+				<section>
+					<section>
+						<h2>Le SEA</h2>
+						<ul>
+							<li>Efficace, rapide pour acquerir de nouveaux visiteurs</li>
+							<li></li>
+						</ul>
+					</section>
+				</section>
+				<section>
                     <section>
                         <h2>Quelques outils à connaître</h2>
                         <ul>
-                            <li>Evolution volumétrie recherches: Google Trends</li>
+                            <li>Évolution volumétrie recherches: Google Trends</li>
                             <li>Idées de mots-clés : Google Keywords Generator</li>
                             <li>Google Webmaster Tools</li>
                         </ul>
                     </section>
-                    <section>
-                        <h2>Etudes de cas</h2>
-                        <ul>
-                            <li>Evolution abandon / evolution CA
-                                <ul>
-                                    <li>Comprendre</li>
-                                    <li>Propositions amélioration</li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </section>
+					
                     <section>
                         <h2>Des dizaines d'acteurs et de solutions</h2>
                         <ul>
@@ -387,6 +606,7 @@
                             <li class="fragment fade-in">Malgré cela, un gros monopole de Google (2015)</li>
                         </ul>
                     </section>
+	
                     <section>
                         <h2>Sous le capot</h2>
                         <p>
@@ -399,8 +619,13 @@
                             <li class="fragment fade-in">= Sachez vous entourer!</li>
                         </ul>
                     </section>
+					<section>
+						<h2>Plan de marquage</h2>
+						<img src="plan-marquage.jpg" />
+					</section>
 
                 </section>
+				
                 <!-- Obstacles et erreurs courantes -->
                 <section>
                     <section>
@@ -409,18 +634,14 @@
                         <ul style="float:left;width:60%;">
                             <li class="fragment fade-in">Avoir les yeux plus gros que le ventre: la règle du 10/90</li>
                             <li class="fragment fade-in">Trop de modifications en même temps</li>
-                            <li class="fragment fade-in">Trop focus sur des KPI à faible interêt</li>
+                            <li class="fragment fade-in">Trop focus sur des KPI à faible intérêt</li>
                             <li class="fragment fade-in">Avoir des KPI trop difficiles à mesurer (ou non fiables)</li>
                             <li class="fragment fade-in">Veille non régulière</li>
                             <li class="fragment fade-in">Se noyer dans le flot d'outils</li>
-                            <li class="fragment fade-in">Trop de KPIs (5max...)</li>
+                            <li class="fragment fade-in">Trop de KPIs (5-10 max...)</li>
                         </ul>
                     </section>
-                    <section>
-                      <h2>Variation et tendances</h2>
-                      <p>Plus importants que les chiffres en eux mêmes.</p>
-                      <p>Mise en place d'alertes lors de trop grandes variation.</p>
-                    </section>
+                    
                     <section>
                         <h2>Un vrai pan du web à ne pas négliger</h2>
 
@@ -450,6 +671,28 @@
                         </ul>
                     </section>
                 </section>
+				
+				<section>
+					<section>
+						<h2>Travail en groupe</h2>
+						<h3>Faire un bilan de la performance du site internet</h3>
+						<ul>
+							<li>Etat des lieux (KPI utilisés, analyse de l'entonnoir de conversion...)</li>
+							<li>Mesurer (performance des KPI, du tunnel, évolution des KPI dans le temps)</li>
+							<li>Agir (améliorer les KPI existants, mise en place de nouveaux, stratégie d'acquisition)</li>
+						</ul>
+						<p><i>Comparer la concurrence, chercher des idées sur internet...</i></p>
+					</section>
+					<section>
+						<h2>Cas d'étude: Pixter</h2>
+						<h3>Dossier à rendre</h3>
+						<ul>
+							<li>Quelques pages suffisent</li>
+							<li>Synthétique</li>
+							<li>Durée: 2h</li>
+						</ul>
+					</section>
+				</section>
             </div>
         </div>
 

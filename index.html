@@ -27,13 +27,16 @@
                 font-size: 1.5em;
             }
 
+          .reveal section img{
+            border:none;
+          }
         </style>
     </head>
     <body>
         <div class="reveal">
             <div class="slides">
                 <section>
-                    <section>Webanalytics - Février 2017</section>
+                    <section>Web Analytics - Février 2017</section>
                     <section>
                         <p>Xavier DENEUX</p>
                         <p class="fragment fade-in">Lead developer</p>
@@ -51,16 +54,21 @@
 
                     <section>
                         <p>Dans le web depuis presque 10ans</p>
-                        <p class="fragment fade-in">#photo, #running, #entrepreneur, #3dprinting. Bientôt #freelance.</p>
+                        <p class="fragment fade-in">#photo, #running, #entrepreneur, #autodidacte, #IoT, #3dprinting.
+                            <br/>
+                            Bientôt #freelance.</p>
                     </section>
 
                     <section>
-                        <p>Expériences</p>
+                        <p>Expérience</p>
                         <ul>
                             <li class="fragment fade-in">8 ans de développement web</li>
                             <li class="fragment fade-in">3 ans en tant que gérant d'un e-commerce</li>
                             <li class="fragment fade-in">4 ans de consulting</li>
                         </ul>
+                    </section>
+                    <section>
+                      <img src="franglais.png" />
                     </section>
                 </section>
                 <section>
@@ -596,11 +604,22 @@
                 </section>
                 <section>
                     <section>
-                        <h2>Le SEA</h2>
+                        <h2>Le SEA (Search Engine Advertising)</h2>
+                        <h3>Présentation</h3>
                         <ul>
                             <li>Efficace, rapide pour acquérir de nouveaux visiteurs</li>
                             <li>Seul canal marketing qui permet de répondre à une demande formulée par un consommateur en temps réel</li>
                             <li>Couteux</li>
+                        </ul>
+                    </section>
+                    <section>
+                        <h2>Le SEA</h2>
+                        <h3>Conseils</h3>
+                        <ul>
+                            <li>Décortiquer la concurrence</li>
+                            <li>Bien préparer son wording</li>
+                            <li>Tips: commencer avec petit budget</li>
+                            <li>Tester plusieurs campagnes</li>
                         </ul>
                     </section>
                     <section>
@@ -612,24 +631,62 @@
                     <section>
                         <h2>Google Adwords</h2>
                         <ul>
-                          <li>Système d'enchères</li>
-                          <li>Budget par campagne</li>
-                          <li>Plusieurs types: search ou display</li>
+                            <li>Système d'enchères</li>
+                            <li>Budget par campagne</li>
+                            <li>Plusieurs types: search ou display</li>
                         </ul>
                     </section>
                     <section>
-                      <h2>Google Adwords</h2>
-                      <h3>Calcul du ROI</h3>
-                      <p>Coût de production s'élève à 100 €. Prix de vente de 200 €.<br />
-                        Grâce à Adwords (coût campagne 200€): 6 ventes générées soit 1200€.<br />
-                        ROI = (1200€ [revenus] - (600 € [coût prod] + 200€ [coût ads])) / (600 € + 200 €), soit 50 %.</p>
+                        <h2>Google Adwords</h2>
+                        <h3>Calcul du ROI</h3>
+                        <p>Coût de production s'élève à 100 €. Prix de vente de 200 €.<br/>
+                            Grâce à Adwords (coût campagne 200€): 6 ventes générées soit 1200€.<br/>
+                            ROI = (1200€ [revenus] - (600 € [coût prod] + 200€ [coût ads])) / (600 € + 200 €), soit 50 %.</p>
                     </section>
                     <section>
-                      <h2>Google Adwords</h2>
-                      <h3>Démo</h3>
-                      <p><a href="https://adwords.google.com">https://adwords.google.com</a></p>
+                        <h2>Google Adwords</h2>
+                        <h3>Démo</h3>
+                        <p>
+                            <a href="https://adwords.google.com">https://adwords.google.com</a>
+                        </p>
                     </section>
+                </section>
 
+                <section>
+                    <section>
+                      <h2>Amélioration continue</h2>
+                      <ul>
+                        <li>Travail permanent, ne jamais se reposer sur ses acquis</li>
+                        <li>Cycles: définir, mesurer, agir</li>
+                        <li>Savoir identifier si l'amélioration d'un KPI est encore rentable</li>
+                      </ul>
+                    </section>
+                    <section>
+                      <h2>Les tests pour améliorer les KPI</h2>
+                      <ul>
+                        <li>"Tester c'est douter", mais c'est reconnaitre qu'on ne peut être bon partout</li>
+                        <li>Permet d'améliorer des KPI avec peu d'investissements</li>
+                        <li>Aide à la décision</li>
+                      </ul>
+                    </section>
+                    <section>
+                      <h2>Les tests pour améliorer les KPI</h2>
+                      <h3>A/B testing</h3>
+                      <p>Consiste à mettre en place plusieurs solutions en même temps et les proposer selon certains critères aux visiteurs:</p>
+                      <ul>
+                        <li>De façon aléatoire</li>
+                        <li>Juste aux users connectés</li>
+                        <li>...</li>
+                      </ul>
+                      <p>Cela permet de comparer pour la même période l'efficacité de chaque solution.<br />
+                      Attention toutefois à tester sur une période assez longue.</p>
+                    </section>
+                    <section>
+                      <h2>Les tests pour améliorer les KPI</h2>
+                      <h3>MVT : Test multivariables</h3>
+                      <!-- TODO -->
+
+                    </section>
                 </section>
 
                 <!-- Obstacles et erreurs courantes -->
@@ -763,14 +820,21 @@
         </script>
 
         <script>
-          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-          })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+            (function(i, s, o, g, r, a, m) {
+                i['GoogleAnalyticsObject'] = r;
+                i[r] = i[r] || function() {
+                    (i[r].q = i[r].q || []).push(arguments)
+                },
+                i[r].l = 1 * new Date();
+                a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+                a.async = 1;
+                a.src = g;
+                m.parentNode.insertBefore(a, m)
+            })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
 
-          ga('create', 'UA-3998844-16', 'auto');
-          ga('send', 'pageview');
-
+            ga('create', 'UA-3998844-16', 'auto');
+            ga('send', 'pageview');
         </script>
 
     </body>
